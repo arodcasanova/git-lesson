@@ -1,11 +1,17 @@
-<!DOCTYPE html>
+---
+title: my_Home
+---
+
+<!doctype html>
 <html>
-<head>
-	<title>Lui's Blog</title>
-</head>
-<body>
-	<main>
-		<h1>Lui's Blog</h1>
-	</main>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} </title>
+  </head>
+  	<body>
+<h1> {{ "Hello World!" | downcase }} </h1>
+
+{{ "this is a test of how to check that the blog software is properly installed." | capitalize }}
+
+  </body>
 </html>
